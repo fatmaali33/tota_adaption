@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        body{
+           background-color: whitesmoke;
+          }
+          .div1{
+               background-color:black;
+               box-shadow: 30cm;
+           }
+           .buttonall{border: none;
+            background-color: palevioletred; 
+            font-size: 40px;
+            font-style: italic;
+            font-weight: bolder;
+
+        } 
+        .link1{
+            text-decoration: none;
+            color: black;
+        }
+       </style>
+</head>
+<body>
+    <div class="div1">
+        <table style="width: 35cm;">      
+            <tr>
+                <td >
+                    <img src="pexels-simona-kidrič-2607544.jpg" width="150" height="150" style="border-radius: 50%;">
+                </td>
+                <td style="font-size: 50px; color:white; font-weight: bolder; font-style: italic;" class="head1">
+                 Contact Us
+                </td>
+            </tr>
+            </table>
+            </div>
+            <br>
+            <div style="background-color: palevioletred;">
+                <table style="width: 20cm;">
+                    <tr>
+                        <td>
+                            <div class="buttonall"><a href="Animal adoption.html"class="link1">Home</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p1.html"class="link1">About</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p2.html"class="link1">Benefits</a></div>
+                        </td> <td>
+                            <div class="buttonall"><a href="p3.html"class="link1">Contact</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="background-image: url(flat-lay-chat-bubbles-with-telephone-receiver-copy-space.jpg); background-size: cover;">
+                <table style="width: 20cm;">      
+                    <tr>
+                        <td >
+                            <img src="whatsapp-logo-png-2288.png" width="200" height="200">
+                        </td>
+                        <td style="font-size: 40px; color:white; font-weight: bolder; font-style: italic;">
+                            01014373879
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <img src="photo_2023-04-16_06-58-17.jpg" width="200" height="200">
+                        </td>
+                        <td style="font-size: 40px; color:white; font-weight: bolder; font-style: italic;">
+                            <a href="https://instagram.com/fatma_ali55.44?igshid=YmMyMTA2M2Y=" style="color: white;text-decoration: none;font-style: italic;">fatma_ali55.44</a>
+                        </td>
+                    </tr>
+                    <br><br><br><br><br>
+
+            </div>
+            <script>
+                let myname=" Contact us";
+                let index=0;
+                function writetext(){ 
+              document.querySelector(".head1").textContent= myname.slice(0,index);
+             
+              index++
+            if(index>1000000){
+                index=0
+            }
+          
+                }
+              setInterval(function(){
+                writetext();
+              },500
+          
+              )
+            
+             
+            </script>
+</body>
+</html>

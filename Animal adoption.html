@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption</title>
+    <style>
+       body{
+        background-color: whitesmoke;
+       }
+       .div1{
+            background-color:black;
+            box-shadow: 10cm;
+        }
+        .buttonall{border: none;
+            background-color: palevioletred; 
+            font-size: 40px;
+            font-style: italic;
+            font-weight: bolder;
+
+        } 
+        .link1{
+            text-decoration: none;
+            color: black;
+           
+        }
+        .p1{
+            font-size: 30px;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <table style="width: 40cm;">      
+            <tr>
+                <td >
+                    <img src="pexels-simona-kidrič-2607544.jpg" width="150" height="150" style="border-radius: 50%;">
+                </td>
+                <td style="font-size: 35px; color:white; font-weight: bolder; font-style: italic;" class="head1">
+                 TOTA Animal Adoption
+                </td>
+            </tr>
+            </table>
+            </div><br>
+              <div style="background-color: palevioletred;">
+                <table style="width: 20cm;">
+                    <tr>
+                        <td>
+                            <div class="buttonall"><a href="Animal adoption.html"class="link1">Home</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p1.html"class="link1">About</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p2.html"class="link1">Benefits</a></div>
+                        </td> <td>
+                            <div class="buttonall"><a href="p3.html"class="link1">Contact</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div style="background-image:url(gray-kitty-with-monochrome-wall-her.jpg); background-size: cover;">
+                <h2 style="font-size: 40px;font-style: italic; font-weight: bolder;color: rgb(26, 4, 222);">Breif:</h2>
+                <p class="p1">Every year, approximately 6.5 million pets enter <br> animal shelters nationwide, and 1.5 million become<br> euthanized. And with the current shelter crisis,<br> numbers are on the rise. But you can help</p>
+                <p class="p1">Not only are pets scientifically proven to reduce<br> stress levels and improve  blood pressure, but no <br>one can offer the unconditional love and companionship<br> a pet can.</p>
+                <h2 style=" font-size: 40px; font-style: italic; font-weight: bolder;color: rgb(26, 4, 222);"> ADOPTING MEANS YOU SAVE A LIFE!</h2>
+                <p class="p1">Too often, shelters euthanize animals due to room <br>constraints, but if more  people adopted pets instead<br> of buying them, the number of pets <br> euthanized would lower dramatically.</p>
+               <p class="p1">When you adopt, not only do you save your loving new<br> companion, but you make  space for other animals who<br> desperately need it creating a domino effect of goodness</p>
+                <br><br>
+
+            </div>
+            
+
+        
+
+    
+    
+    
+    <script>
+        let myname="TOTA Animal Adoption";
+        let index=0;
+        function writetext(){ 
+      document.querySelector(".head1").textContent= myname.slice(0,index);
+     
+      index++
+    if(index>1000000){
+        index=0
+    }
+  
+        }
+      setInterval(function(){
+        writetext();
+      },500
+  
+      )
+    
+     
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+     body{
+        background-color: whitesmoke;
+       }
+       .div1{
+            background-color:black;
+            box-shadow: 30cm;
+        }
+        .buttonall{border: none;
+            background-color: palevioletred; 
+            font-size: 40px;
+            font-style: italic;
+            font-weight: bolder;
+
+        } 
+        .link1{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <table style="width: 30cm;">      
+            <tr>
+                <td >
+                    <img src="pexels-simona-kidrič-2607544.jpg" width="150" height="150" style="border-radius: 50%;">
+                </td>
+                <td style="font-size: 50px; color:white; font-weight: bolder; font-style: italic;" class="head1">
+                 About Us
+                </td>
+            </tr>
+            </table>
+            </div>
+            <br>
+            <div style="background-color: palevioletred;">
+                <table style="width: 20cm;">
+                    <tr>
+                        <td>
+                            <div class="buttonall"><a href="Animal adoption.html"class="link1">Home</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p1.html"class="link1">About</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p2.html"class="link1">Benefits</a></div>
+                        </td> <td>
+                            <div class="buttonall"><a href="p3.html"class="link1">Contact</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="background-image: url(portrait-woman-glasses-holding-laptop-pointing-screen-showing-her-work-computer-standing.jpg); background-size: cover;">
+                <h2 style="font-size: 40px;font-style: italic; font-weight: bolder;color: black">About Us:</h2>
+                <p style="font-size: 30px;">tota Animals is an adoption website that connects animals <br> in need with the right people. We work as an independent<br> third party between those looking to rehome an animal and <br>those wishing to grow their family.</p>
+                <br>
+                <p style="font-size: 30px;">tota Animals functions as an informal educational platform <br> that brings awareness to all issues related to animal welfare.</p>
+                <br>
+                <p style="font-size: 30px;">tota Animals is the first animal adoption website in Egypt</p>
+           
+            </div>
+            <script>
+                let myname="About Us";
+                let index=0;
+                function writetext(){ 
+              document.querySelector(".head1").textContent= myname.slice(0,index);
+             
+              index++
+            if(index>1000000){
+                index=0
+            }
+          
+                }
+              setInterval(function(){
+                writetext();
+              },500
+          
+              )
+            
+             
+            </script>
+    
+</body>
+</html>

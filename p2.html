@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benefit of adobt</title>
+    <style>
+        body{
+           background-color: whitesmoke;
+          }
+          .div1{
+               background-color:black;
+               box-shadow: 30cm;
+           }
+           li{font-style: italic;font-size: 30px;font-weight: bolder;
+              
+           }
+           .buttonall{border: none;
+            background-color: palevioletred; 
+            font-size: 40px;
+            font-style: italic;
+            font-weight: bolder;
+
+        } 
+        .link1{
+            text-decoration: none;
+            color: black;
+        }
+       </style>
+</head>
+<body>
+    <div class="div1">
+        <table style="width: 40cm;">      
+            <tr>
+                <td >
+                    <img src="pexels-simona-kidrič-2607544.jpg" width="150" height="150" style="border-radius: 50%;">
+                </td>
+                <td style="font-size: 50px; color:white; font-weight: bolder; font-style: italic;" class="head1">
+                 Benefit of adobt
+                </td>
+            </tr>
+            </table>
+            </div>
+            <br>
+            <div style="background-color: palevioletred;">
+                <table style="width: 20cm;">
+                    <tr>
+                        <td>
+                            <div class="buttonall"><a href="Animal adoption.html"class="link1">Home</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p1.html"class="link1">About</a></div>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="p2.html"class="link1">Benefits</a></div>
+                        </td> <td>
+                            <div class="buttonall"><a href="p3.html"class="link1">Contact</a></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="background-image:url(labrador-retriever.jpg); background-size: cover;">
+               <ol>
+                <h2 style="font-style: italic;font-size: 40px;font-weight: bolder;color: rgb(0, 137, 179);">10 benefits of adopting a pet:</h2>
+                <br><li>You are saving a life</li><br>
+                <li>You will save money</li><br>
+                <li> Helping to eradicate puppy farms and pet shops</li><br>
+                <li> Can improve your health and make you happier</li><br>
+                <li> Can benefit children</li><br>
+                <li>Many of the animals are housetrained</li><br>
+                <li>Unconditional love</li><br>
+                <li>You could get a pet you never expected</li><br>
+                <li> Older animals can prove to be the best companions</li><br>
+                <li> Adopting supports spaying and neutering</li><br>
+               </ol>
+            </div>
+            <script>
+                let myname=" Benefit of adobt";
+                let index=0;
+                function writetext(){ 
+              document.querySelector(".head1").textContent= myname.slice(0,index);
+             
+              index++
+            if(index>1000000){
+                index=0
+            }
+          
+                }
+              setInterval(function(){
+                writetext();
+              },500
+          
+              )
+            
+             
+            </script>
+</body>
+</html>
